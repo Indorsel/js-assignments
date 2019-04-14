@@ -80,9 +80,8 @@ function doubleArray(arr) {
 function getArrayOfPositives(arr) {
    function isPositiveNums(value, index, arr) {
       return value > 0;
-   }
-   return arr.filter(isPositiveNums);
-   throw new Error('Not implemented');
+    }   
+    return arr.filter(isPositiveNums);
 }
 
 /**
