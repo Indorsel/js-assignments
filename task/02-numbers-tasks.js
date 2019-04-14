@@ -218,9 +218,9 @@ function roundToPowerOfTen(num, pow) {
 function isPrime(n) {
     let counter = 0;
     for (let i = 2; i < n; i++) {
-            if ((n % i) !== 0) counter += 1;
+        if ((n % i) !== 0) counter += 1;
     }
-    if (counter == (n-2)) {return true;}
+    if (counter == (n-2)) return true;
     else return false;
     throw new Error('Not implemented');
 }
